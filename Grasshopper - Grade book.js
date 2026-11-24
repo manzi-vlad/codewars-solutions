@@ -1,7 +1,6 @@
 function getGrade (s1, s2, s3) {
   var score = (s1+s2+s3)/3;
 
-
 if (score >= 90){
   return "A";
 } else if (score >= 80){
@@ -13,5 +12,4 @@ if (score >= 90){
 } else {
   return "F";
 }
-  
 }
